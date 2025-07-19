@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    
+
     
 ]
 
@@ -54,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    
 ]
 
 ROOT_URLCONF = 'MAcoes.urls'
