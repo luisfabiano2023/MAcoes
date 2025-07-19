@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'aplicativo',
     'rest_framework',
     'corsheaders',
-    'rest_framework_simplejwt',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    
+    
 ]
 
 MIDDLEWARE = [
