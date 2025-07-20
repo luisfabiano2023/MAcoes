@@ -6,6 +6,13 @@ from .models import Item,Category,User
 from .serializers import itemSerializer,categorySerializer, userSerializer
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
+from django.contrib.auth import authenticate,login,logout
+from django.contrib import messages
+
+
+
+def login_user(request):
+   return render(request,'session/login.html',{})
 
 
 def create_user(request,):
