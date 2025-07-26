@@ -15,8 +15,7 @@ class categorySerializer(serializers.ModelSerializer):
         fieds=('ct_name','ct_id')
 
 
-class userSerializer(serializers.ModelSerializer):
-    class Meta:
-        model=User 
-        fiels='__all__'
-        
+class UserSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model=User
+        fields = ['id','username','password','email']
