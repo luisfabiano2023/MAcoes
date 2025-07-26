@@ -15,11 +15,6 @@ def login_user(request):
    return render(request,'session/login.html',{})
    
 
-def signup():
-   pass
-
-
-
 
 # Create your views here.
 @api_view(['POST'])
