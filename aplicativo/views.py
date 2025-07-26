@@ -13,12 +13,13 @@ from django.contrib import messages
 
 def login_user(request):
    return render(request,'session/login.html',{})
+   
+
+def signup():
+   pass
 
 
-def create_user(request,):
-   users=userSerializer(data=request.data)
-   if User.objects.filter(**request.data).exists():
-      pass
+
 
 # Create your views here.
 @api_view(['POST'])
